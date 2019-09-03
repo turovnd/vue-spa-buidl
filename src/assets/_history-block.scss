@@ -1,0 +1,15 @@
+.history-block {
+  margin-top: 20px;
+
+  &__title {
+    font-weight: normal;
+  }
+
+  &__list {
+    margin-left: 20px;
+  }
+
+  &__list-item {
+    padding: 5px 0;
+  }
+}

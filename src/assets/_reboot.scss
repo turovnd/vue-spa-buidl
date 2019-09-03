@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(#000, 0);
+}
+
+footer, header, main, nav, section {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1;
+  color: #000;
+  text-align: left;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 20px auto 0;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+}
